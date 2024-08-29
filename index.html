@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="left-side">
+        <div id="odin-logo"><img id="crow-img" src="images/crow.png" alt="">THE CROW</div>
+        <div id="photo-credit">Photo by Efre Efrems</div>
+    </div>
+    <div id="right-side">
+        <div id="top-blurb">
+            <p>As the crows flies. The quickest way between two points. We can help you make sure your video projects are automated and efficient.</p>
+            <p>Sign up <em>now</em> to get started.</p>
+            <p>You <em>know</em> you want to.</p>
+        </div>
+        <div id="form-section">
+            <p>Let's do this!</p>
+            <div id="inputs-container">
+                <div class="label-column">
+                    <label for="first-name-input">FIRST NAME:</label>
+                    <input id="first-name-input" type="text" minlength="" maxlength="20" placeholder="Your first name" required>
+                    <label for="email-input">EMAIL:</label>
+                    <input id="email-input" type="email" minlength="1" maxlength="20" placeholder="example@domain.com" pattern=".+@.+\..+" required>
+                    <label for="password-input">PASSWORD:</label>
+                    <input id="password-input" type="password" minlength="1" maxlength="20" placeholder="" pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$" required>
+                </div>
+                <div class="label-column">
+                    <label for="last-name-input">LAST NAME:</label>
+                    <input id="last-name-input" type="text" minlength="1" maxlength="20" placeholder="" required>
+                    <label for="phone-input">PHONE NUMBER:</label>
+                    <input id="phone-input" type="phone" minlength="1" maxlength="20" placeholder="021 456 8456" pattern="[\d\s]{6,22}" required>
+                    <label for="confirm-password-input">CONFIRM PASSWORD:</label>
+                    <input id="confirm-password-input" type="password" minlength="1" maxlength="20" placeholder="" pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$" required>
+                </div>
+            </div>
+        </div>
+        <div id="bottom-submit-section">
+            <div id="login-wrapper">
+                <button>Create Account</button>
+                <p>Already have an account? <a href="login.html">Log in</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
